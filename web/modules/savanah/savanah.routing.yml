@@ -1,0 +1,7 @@
+savanah.page:
+  path: '/savanah'
+  defaults:
+    _controller: '\Drupal\savanah\controller\SavanahController::savanah'
+    _title: "savanah"
+  requirements:
+    _permission: "access content"

@@ -1,0 +1,136 @@
+ /* General Styling */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: #e0e0e0; /* Light silver background */
+}
+
+/* Reset for Links */
+a, a:active, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from parent */
+}
+
+/* List Styling */
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Section */
+header {
+    background: #acacfa; /* Gray background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo or Image in Navbar */
+header img {
+    max-height: 20px; /* Adjust this to control the image size */
+    margin-right: 20px;
+}
+
+/* Navigation Menu */
+#block-icecream-theme-main-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between menu items */
+}
+
+/* Add Image Section in Navbar */
+#block-icecream-theme-main-menu ul li.image-section {
+    padding: 0; /* No padding for the image section */
+}
+
+#block-icecream-theme-main-menu ul li.image-section img {
+    max-height: 40px; /* Adjust the height of the image */
+}
+
+/* Menu Items */
+#block-icecream-theme-main-menu ul li {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #2c3e50;
+    background-color: #d0d0d0; /* Lighter gray */
+    border: 2px solid #b0b0b0; /* Border with gray */
+    border-radius: 5px;
+    transition: background-color 300ms, color 300ms;
+}
+
+#block-icecream-theme-main-menu ul li:hover {
+    color: #d0d0d0; /* Light gray text on hover */
+    background-color: #2c3e50; /* Darker gray background on hover */
+}
+
+/* Content Section */
+.content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f0f0f0; /* Very light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    background-color: #1c1c1c; /* Darker gray */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    bottom: 0;
+}
+
+#block-icecream-theme-footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+#block-icecream-theme-footer ul li a {
+    color: #c0c0c0; /* Light silver */
+    transition: color 300ms;
+}
+
+#block-icecream-theme-footer ul li a:hover {
+    color: #b0b0b0; /* Slightly darker gray */
+}
+
+/* Headings */
+.heading {
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #block-icecream-theme-main-menu ul {
+        flex-direction: column;
+    }
+
+    #block-icecream-theme-main-menu ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header img {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,5 @@
+name: react_list
+description: 'A simple React - Drupal 11 module'
+type: module
+core_version_requirement: ^10 || ^11 || ^12
+

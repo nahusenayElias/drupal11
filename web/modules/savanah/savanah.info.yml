@@ -1,0 +1,4 @@
+name: savanah
+description: My first Drupal 11 module
+type: module
+core_version_requirement: ^10 || ^11 || ^12
