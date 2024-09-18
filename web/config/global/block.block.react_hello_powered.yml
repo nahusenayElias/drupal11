@@ -1,0 +1,22 @@
+uuid: 266fee8a-8021-4cfb-b3c7-1643a698abc8
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_hello
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: react_hello_powered
+theme: react_hello
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en-gb
+uuid: afaf35f1-d8af-423c-a985-30923b16c061
+name: 'Drush Blog'
+mail: eliasars@yahoo.com
+slogan: 'Awesome platform'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en-gb
+mail_notification: null

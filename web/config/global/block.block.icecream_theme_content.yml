@@ -1,0 +1,22 @@
+uuid: f4e07965-bde0-43e6-83d2-03a0f50f3bfe
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: icecream_theme_content
+theme: icecream_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

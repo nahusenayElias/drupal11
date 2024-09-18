@@ -1,0 +1,22 @@
+uuid: 9f88c676-e8ec-4936-82c1-bd1673707e9b
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_hello
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: react_hello_breadcrumbs
+theme: react_hello
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
