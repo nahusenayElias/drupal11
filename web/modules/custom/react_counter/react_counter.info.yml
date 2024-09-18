@@ -1,0 +1,7 @@
+name: react_counter
+description: 'A simple react counter'
+type: module
+core_version_requirement: ^10 || ^11 || ^12
+dependencies:
+  - drupal:node
+
