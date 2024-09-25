@@ -1,6 +1,6 @@
 name: icecreame
 type: theme
-description: an experimental custom theme
+description: 'an experimental custom theme'
 base theme: false
 version: 0.0.1
 core_version_requirement: ^10 || ^11
@@ -9,7 +9,6 @@ libraries:
 
 regions:
   header: header
-  menu: menu
   content: content
   sidebar: sidebar
   footer: footer
